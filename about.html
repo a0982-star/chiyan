@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>about</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                margin: 0;
+                padding: 40px 0;
+            }
+            .container{
+                max-width: 1024px;
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+            }
+           
+            nav{
+                flex: 0 0 100%;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            nav a,b{
+                margin: 0 14px;
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+
+            footer{
+              margin: 0 14px;
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+
+            .a{
+                flex: 0 0 100%;
+            }
+          
+            .block{
+                border: none;
+                height: 300px;
+            }
+            footer{
+                background: #ddd;
+                padding: 16px;
+                text-align: center;
+            }
+            h1,h2,h3{
+                flex: 0 0 100%;
+                text-align: center;
+                margin-bottom: 24px;
+            }
+            @media screen and (max-width: 400px){
+                .b,.c,.d,.e,.f{
+                    flex: 0 0 100%;
+                }
+            }
+            @media screen and (max-width: 800px){
+                .b{
+                    flex: 0 0 100%;
+                }
+                .c,.d,.e,.f{
+                    flex: 0 0 50%;
+                }
+            }
+            body {
+                background-color: #F1F0F3;
+            }
+            .banner {
+                width: 100%;
+                text-align: center;
+                margin-bottom: 24px;
+            }
+
+            .banner img {
+                width: 100%;
+                max-width: 500px; 
+                height: auto;
+                display: block;
+                margin: 0 auto;
+            }
+            .me img {
+                width: 100%;
+                max-width: 100px; 
+                height: auto;
+                display: block;
+                margin: 0 auto;
+            }
+            footer a {
+                text-decoration: none; 
+                color: black;          
+                font-weight: bold;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>關於我</h1>
+            <nav>
+                <a href="http://127.0.0.1:5500/index.html">首頁</a>|
+                <a href="http://127.0.0.1:5500/works.html">作品頁</a>|
+                <a href="http://127.0.0.1:5500/about.html">關於我
+                </a>
+            </nav>
+              <div class="banner">
+                 <img src="頭像.png" >
+            </div>
+        <h2>林祈言</h2>
+        <h3>喜歡追日本網路活動者，興趣是看演唱會<br><br>
+            也喜歡自己一個人出門旅遊和看電影<br><br>
+            香菜滅絕主義者，肉圓不能吃炸的<br><br>
+            至今仍然無法理解為什麼醬油膏是甜的<br><br>
+            最近很喜歡三麗鷗的彼安諾醬</h3>
+            <div class="me">
+                 <img src="羊.png" >
+            </div>
+        <footer> <a href="https://www.instagram.com/chiyan_0717/">@chiyan</a></footer>
+    </body>
+</html>
