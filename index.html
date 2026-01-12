@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>index</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                margin: 0;
+                padding: 40px 0;
+            }
+            .container{
+                max-width: 1024px;
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+            }
+           
+            nav{
+                flex: 0 0 100%;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            nav a,b{
+                margin: 0 14px;
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+
+            footer{
+              margin: 0 14px;
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+
+            .a{
+                flex: 0 0 100%;
+            }
+            .b{
+                flex: 0 0 50%;
+            }
+            .c{
+                flex: 0 0 50%;
+            }
+            .block{
+                border: none;
+                height: 300px;
+            }
+            .block.a img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+            }
+            .block.a{
+                padding: 0px;
+            }
+             .block.b img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+            }
+            .block.c{
+               text-align: center;
+            }
+            footer{
+                background: #ddd;
+                padding: 16px;
+                text-align: center;
+            }
+            h1{
+                flex: 0 0 100%;
+                text-align: center;
+                margin-bottom: 24px;
+            }
+            body {
+                background-color: #F1F0F3;
+            }
+            /*RWD樣式*/
+            @media screen and (max-width: 400px){
+                .b,.c,.d,.e,.f{
+                    flex: 0 0 100%;
+                }
+            }
+            @media screen and (max-width: 800px){
+                .b{
+                    flex: 0 0 100%;
+                }
+                .c,.d,.e,.f{
+                    flex: 0 0 50%;
+                }
+            }
+            footer a {
+                text-decoration: none; 
+                color: black;          
+                font-weight: bold;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>我愛期末</h1>
+         <nav>
+                <a href="http://127.0.0.1:5500/index.html">首頁</a>|
+                <a href="http://127.0.0.1:5500/works.html">作品頁</a>|
+                <a href="http://127.0.0.1:5500/about.html">關於我
+                </a>
+                <!--導航列-->
+            </nav>
+        <div class="container">
+            <div class="block a">
+                <img src="封面.jpg">
+            </div>
+           
+            <div class="block b">
+                <img src="shino.png">
+            </div>
+            <div class="block c">
+                <h4>我是四動三Ａ的林祈言，南應大忠誠的奴隸<br><br>
+                    目前虛歲四歲<br><br>
+                    未來的夢想是重新投胎成石油王養的貓<br><br>
+                    2026的新年新希望是雲端發票中30萬<br><br>
+                    不是300萬是因為做人不能太貪心而不是我中不了<br><br>
+                    還有我現在很想吃胖老爹的雞腿</h4>
+            </div>
+              
+        </div>
+         <footer> <a href="https://www.instagram.com/chiyan_0717/">@chiyan</a></footer>
+    </body>
+</html>
